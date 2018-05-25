@@ -1,0 +1,134 @@
+.theme-setting {
+    position: fixed;
+    z-index: 9999;
+    top: 30%;
+    left: -220px;
+
+    visibility: hidden;
+
+    transition: .3s left cubic-bezier(.03, .88, .34, .97);
+
+    opacity: 0;
+    border: 0;
+    background-color: #ffffff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, .2);
+}
+
+.theme-setting .theme-loading {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+
+    background: rgba(255, 255, 255, .3);
+}
+
+.theme-setting .theme-loading .theme-loading-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    text-align: center;
+}
+
+.theme-setting .btn-theme-setting {
+    font-size: 16px;
+    line-height: 40px;
+
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: -40px;
+
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+
+    color: #ababae;
+    background-color: #ffffff;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, .2);
+}
+
+.theme-setting .content-theme-setting {
+    line-height: 40px;
+
+    display: inline-block;
+
+    width: 220px;
+
+    text-align: center;
+}
+
+.theme-setting .content-theme-setting .title {
+    font-size: 20px;
+    font-weight: 700;
+
+    margin: 0;
+    padding: 20px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #242c42;
+}
+
+.theme-setting .content-theme-setting ul {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.theme-setting .content-theme-setting ul li {
+    width: 24px;
+    height: 24px;
+    margin: 0 7px;
+
+    cursor: pointer;
+    vertical-align: middle;
+
+    border: 0 solid #f0f0f0;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-1'] {
+    background-color: #ffdd00;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-2'] {
+    background-color: #2aacff;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-3'] {
+    background-color: #e91e63;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-4'] {
+    background-color: #86bc42;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-5'] {
+    background-color: #50bcb6;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-6'] {
+    background-color: #c74a73;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-7'] {
+    background-color: #f66666;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-8'] {
+    background-color: #ffb0b0;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-9'] {
+    background-color: #ff9c00;
+}
+
+.theme-setting .content-theme-setting ul li[data-color='color-10'] {
+    background-color: #f1c40f;
+}
